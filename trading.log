@@ -1,0 +1,10 @@
+2025-02-13 13:13:19,423 - INFO - Quote URL: https://quote-api.jup.ag/v6/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=6QZiDcaFsQAtm3qWpC8EnWXyf5QZuCv39ZnyruPdFFaC&amount=1&slippageBps=500
+2025-02-13 13:13:19,424 - DEBUG - Starting new HTTPS connection (1): quote-api.jup.ag:443
+2025-02-13 13:13:21,766 - DEBUG - https://quote-api.jup.ag:443 "GET /v6/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=6QZiDcaFsQAtm3qWpC8EnWXyf5QZuCv39ZnyruPdFFaC&amount=1&slippageBps=500 HTTP/11" 400 75
+2025-02-13 13:13:21,767 - DEBUG - Quote Response: {'error': 'Could not find any route', 'errorCode': 'COULD_NOT_FIND_ANY_ROUTE'}
+2025-02-13 13:13:21,768 - ERROR - Quote Error for 6QZiDcaFsQAtm3qWpC8EnWXyf5QZuCv39ZnyruPdFFaC: Could not find any route
+2025-02-13 13:13:24,255 - INFO - Quote URL: https://quote-api.jup.ag/v6/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=BRuBCFvbpzPwsFJ48yu4QAB44hUCiuCRPD5q9Ag9HqgC&amount=1&slippageBps=500
+2025-02-13 13:13:24,256 - DEBUG - Starting new HTTPS connection (1): quote-api.jup.ag:443
+2025-02-13 13:13:24,867 - DEBUG - https://quote-api.jup.ag:443 "GET /v6/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=BRuBCFvbpzPwsFJ48yu4QAB44hUCiuCRPD5q9Ag9HqgC&amount=1&slippageBps=500 HTTP/11" 400 75
+2025-02-13 13:13:24,868 - DEBUG - Quote Response: {'error': 'Could not find any route', 'errorCode': 'COULD_NOT_FIND_ANY_ROUTE'}
+2025-02-13 13:13:24,869 - ERROR - Quote Error for BRuBCFvbpzPwsFJ48yu4QAB44hUCiuCRPD5q9Ag9HqgC: Could not find any route
