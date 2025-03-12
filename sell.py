@@ -429,12 +429,12 @@ def buy_token_information(token):
                     "profit": loss
                 })
             else:
-                df = pd.read_csv('data/new_launches.csv')
-                factor = token_address
-                df = df[~df.apply(lambda row: row.astype(str).str.contains(
-                    factor).any(),
-                                  axis=1)]
-                df.to_csv('data/new_launches.csv', index=False)
+                # df = pd.read_csv('data/new_launches.csv')
+                # factor = token_address
+                # df = df[~df.apply(lambda row: row.astype(str).str.contains(
+                #     factor).any(),
+                #                   axis=1)]
+                # df.to_csv('data/new_launches.csv', index=False)
                 return 0
 
         if transactions_infor:
